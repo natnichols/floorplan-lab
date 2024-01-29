@@ -8,4 +8,5 @@ html, body {
 div {
   border: 1px solid cornflowerblue;
   padding: 8px;
+  margin: 5px;
 }
