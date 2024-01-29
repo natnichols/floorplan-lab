@@ -1,8 +1,31 @@
+import Bedroom from './Bedroom'
+import Kitchen from './Kitchen'
+
 const FloorPlan = (props) => {
   return ( 
-    <div>
-      <h1>Hello Fiend</h1>
-    </div>
+    <>
+      <div>
+        <Bedroom />
+      </div>
+      <div>
+        <Kitchen />
+      </div>
+      {/* <div>
+        <Bath />
+      </div> */}
+      {/* <div>
+        <Bedroom />
+      </div> */}
+      {/* <div>
+        <LivingRoom />
+      </div> */}
+      {/* <div>
+        <Bath />
+      </div> */}
+      {/* <div>
+        <Bedroom />
+      </div> */}
+    </>
   )
 }
 

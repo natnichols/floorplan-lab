@@ -4,3 +4,8 @@ html, body {
   justify-content: center;
   align-items: center;
 }
+
+div {
+  border: 1px solid cornflowerblue;
+  padding: 8px;
+}
