@@ -8,10 +8,10 @@ const FloorPlan = (props) => {
     <>
         <Bedroom bedroomNum={1} />
         <Kitchen />
-        <Bath />
+        <Bath size={'Full'} />
         <Bedroom bedroomNum={2} />
         <LivingRoom />
-        <Bath />
+        <Bath size={'Half'} />
         <Bedroom bedroomNum={3} />
     </>
   )
