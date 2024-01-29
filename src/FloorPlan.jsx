@@ -1,5 +1,6 @@
 import Bedroom from './Bedroom'
 import Kitchen from './Kitchen'
+import Bath from './Bath'
 
 const FloorPlan = (props) => {
   return ( 
@@ -10,9 +11,9 @@ const FloorPlan = (props) => {
       <div>
         <Kitchen />
       </div>
-      {/* <div>
+      <div>
         <Bath />
-      </div> */}
+      </div>
       {/* <div>
         <Bedroom />
       </div> */}
