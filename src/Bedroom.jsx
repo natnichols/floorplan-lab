@@ -5,7 +5,7 @@ const Bedroom = (props) => {
   return ( 
     <div>
       Bedroom {props.bedroomNum}
-      <Bed size='Queen'/>
+      <Bed />
       <Lamp />
     </div>
   );

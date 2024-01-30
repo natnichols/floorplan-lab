@@ -1,7 +1,7 @@
 const Bed = (props) => {
   return ( 
     <div>
-      {props.size} Bed
+      Bed
     </div>
   )
 }
