@@ -7,6 +7,7 @@ const Bath = (props) => {
       {props.size} Bath
       <Sink />
       <Toilet />
+      {props.shower === 1 ? <div>Shower</div> : '' }
     </div>
   );
 }
