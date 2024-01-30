@@ -1,5 +1,6 @@
 import Oven from "./Oven"
 import Sink from "./Sink"
+import Fridge from "./Fridge"
 
 const Kitchen = (props) => {
   return ( 
@@ -7,6 +8,7 @@ const Kitchen = (props) => {
       Kitchen
       <Oven />
       <Sink />
+      <Fridge />
     </div>
   )
 }
